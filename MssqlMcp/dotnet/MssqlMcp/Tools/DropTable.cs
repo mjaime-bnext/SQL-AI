@@ -2,15 +2,15 @@
 // Licensed under the MIT license.
 
 using System.ComponentModel;
-using Microsoft.Extensions.Logging;
 using ModelContextProtocol.Server;
 
 namespace Mssql.McpServer;
 
 public partial class Tools
 {
+    /*
     [McpServerTool(
-        Title = "Drop Table",
+        Title = "DropTable",
         ReadOnly = false,
         Destructive = true),
         Description("Drops a table in the SQL Database. Expects a valid DROP TABLE SQL statement as input.")]
@@ -33,4 +33,5 @@ public partial class Tools
             return new DbOperationResult(success: false, error: ex.Message);
         }
     }
+    */
 }

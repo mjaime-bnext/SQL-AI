@@ -3,17 +3,17 @@
 
 using System.ComponentModel;
 using Microsoft.Data.SqlClient;
-using Microsoft.Extensions.Logging;
 using ModelContextProtocol.Server;
 
 namespace Mssql.McpServer;
+
 
 public partial class Tools
 {
     private const string ListTablesQuery = @"SELECT TABLE_SCHEMA, TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' ORDER BY TABLE_SCHEMA, TABLE_NAME";
 
     [McpServerTool(
-        Title = "List Tables",
+        Title = "ListTables",
         ReadOnly = true,
         Idempotent = true,
         Destructive = false),

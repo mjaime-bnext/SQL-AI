@@ -2,7 +2,6 @@
 // Licensed under the MIT license.
 
 using System.Data;
-using Microsoft.Extensions.Logging;
 using ModelContextProtocol.Server;
 
 namespace Mssql.McpServer;

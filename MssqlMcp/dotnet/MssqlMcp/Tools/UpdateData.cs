@@ -2,15 +2,15 @@
 // Licensed under the MIT license.
 
 using System.ComponentModel;
-using Microsoft.Extensions.Logging;
 using ModelContextProtocol.Server;
 
 namespace Mssql.McpServer;
 
+/*
 public partial class Tools
 {
     [McpServerTool(
-        Title = "Update Data",
+        Title = "UpdateData",
         ReadOnly = false,
         Destructive = true),
         Description("Updates data in a table in the SQL Database. Expects a valid UPDATE SQL statement as input.")]
@@ -35,3 +35,4 @@ public partial class Tools
     }
 }
 
+*/

@@ -2,15 +2,15 @@
 // Licensed under the MIT license.
 
 using System.ComponentModel;
-using Microsoft.Extensions.Logging;
 using ModelContextProtocol.Server;
 
 namespace Mssql.McpServer;
 
+/*
 public partial class Tools
 {
     [McpServerTool(
-        Title = "Insert Data",
+        Title = "InsertData",
         ReadOnly = false,
         Destructive = false),
         Description("Updates data in a table in the SQL Database. Expects a valid INSERT SQL statement as input. ")]
@@ -34,3 +34,4 @@ public partial class Tools
         }
     }
 }
+*/

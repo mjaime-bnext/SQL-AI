@@ -3,15 +3,15 @@
 
 using System.ComponentModel;
 using Microsoft.Data.SqlClient;
-using Microsoft.Extensions.Logging;
 using ModelContextProtocol.Server;
 
 namespace Mssql.McpServer;
 
 public partial class Tools
 {
+    /*
     [McpServerTool(
-        Title = "Describe Table",
+        Title = "DescribeTable",
         ReadOnly = true,
         Idempotent = true,
         Destructive = false),
@@ -210,4 +210,5 @@ GROUP BY
             return new DbOperationResult(success: false, error: ex.Message);
         }
     }
+    */
 }
